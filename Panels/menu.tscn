@@ -1,0 +1,209 @@
+[gd_scene load_steps=3 format=3 uid="uid://denm1ech2qpoa"]
+
+[ext_resource type="PackedScene" uid="uid://dkkkum75dvclm" path="res://items/Room&reset.tscn" id="1_2ho4l"]
+[ext_resource type="Script" path="res://Panels/menu.gd" id="1_q3gub"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_q3gub")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RESET_GENERALE" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "RESET GENERALE"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="1st_column" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Room&reset" parent="VBoxContainer/HBoxContainer/1st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+
+[node name="Room&reset2" parent="VBoxContainer/HBoxContainer/1st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "106"
+
+[node name="Room&reset3" parent="VBoxContainer/HBoxContainer/1st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "111"
+
+[node name="Room&reset4" parent="VBoxContainer/HBoxContainer/1st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "201"
+
+[node name="Room&reset5" parent="VBoxContainer/HBoxContainer/1st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "206"
+
+[node name="Room&reset6" parent="VBoxContainer/HBoxContainer/1st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "301"
+
+[node name="Room&reset7" parent="VBoxContainer/HBoxContainer/1st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "306"
+
+[node name="2st_column" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Room&reset" parent="VBoxContainer/HBoxContainer/2st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "102"
+
+[node name="Room&reset3" parent="VBoxContainer/HBoxContainer/2st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "107"
+
+[node name="Room&reset8" parent="VBoxContainer/HBoxContainer/2st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = ""
+
+[node name="Room&reset5" parent="VBoxContainer/HBoxContainer/2st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "202"
+
+[node name="Room&reset6" parent="VBoxContainer/HBoxContainer/2st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "207"
+
+[node name="Room&reset7" parent="VBoxContainer/HBoxContainer/2st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "302"
+
+[node name="Room&reset2" parent="VBoxContainer/HBoxContainer/2st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "307"
+
+[node name="3st_column" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Room&reset" parent="VBoxContainer/HBoxContainer/3st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "103"
+
+[node name="Room&reset3" parent="VBoxContainer/HBoxContainer/3st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "108"
+
+[node name="Room&reset9" parent="VBoxContainer/HBoxContainer/3st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = ""
+
+[node name="Room&reset5" parent="VBoxContainer/HBoxContainer/3st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "203"
+
+[node name="Room&reset6" parent="VBoxContainer/HBoxContainer/3st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "208"
+
+[node name="Room&reset7" parent="VBoxContainer/HBoxContainer/3st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "303"
+
+[node name="Room&reset8" parent="VBoxContainer/HBoxContainer/3st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "308"
+
+[node name="4st_column" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Room&reset" parent="VBoxContainer/HBoxContainer/4st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "104"
+
+[node name="Room&reset2" parent="VBoxContainer/HBoxContainer/4st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "109"
+
+[node name="Room&reset8" parent="VBoxContainer/HBoxContainer/4st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = ""
+
+[node name="Room&reset4" parent="VBoxContainer/HBoxContainer/4st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "204"
+
+[node name="Room&reset5" parent="VBoxContainer/HBoxContainer/4st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "209"
+
+[node name="Room&reset6" parent="VBoxContainer/HBoxContainer/4st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "304"
+
+[node name="Room&reset7" parent="VBoxContainer/HBoxContainer/4st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "309"
+
+[node name="5st_column" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Room&reset" parent="VBoxContainer/HBoxContainer/5st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = "105"
+
+[node name="Room&reset2" parent="VBoxContainer/HBoxContainer/5st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "110"
+
+[node name="Room&reset8" parent="VBoxContainer/HBoxContainer/5st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+split_offset = -2150
+room_number = ""
+
+[node name="Room&reset4" parent="VBoxContainer/HBoxContainer/5st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "205"
+
+[node name="Room&reset5" parent="VBoxContainer/HBoxContainer/5st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "210"
+
+[node name="Room&reset6" parent="VBoxContainer/HBoxContainer/5st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "305"
+
+[node name="Room&reset7" parent="VBoxContainer/HBoxContainer/5st_column" instance=ExtResource("1_2ho4l")]
+layout_mode = 2
+room_number = "310"
+
+[connection signal="button_up" from="VBoxContainer/RESET_GENERALE" to="." method="_on_reset_generale_button_up"]

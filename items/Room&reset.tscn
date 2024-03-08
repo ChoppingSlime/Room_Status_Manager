@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkkkum75dvclm"]
+
+[ext_resource type="Script" path="res://items/Room&reset.gd" id="1_ydaob"]
+
+[sub_resource type="Theme" id="Theme_s75pw"]
+
+[node name="Room&reset" type="HSplitContainer" groups=["room"]]
+offset_right = 237.0
+offset_bottom = 128.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = SubResource("Theme_s75pw")
+split_offset = 45
+dragger_visibility = 1
+script = ExtResource("1_ydaob")
+room_number = "101"
+
+[node name="Reset" type="Button" parent="."]
+layout_mode = 2
+text = "RESET"
+
+[node name="Room" type="Button" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "ROOM"
+
+[connection signal="button_up" from="Reset" to="." method="_on_reset_button_up"]
+[connection signal="button_up" from="Room" to="." method="_on_room_button_up"]
